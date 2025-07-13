@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ouvidoria</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">LOGO</div>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Institucional</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#formulario">Fale Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Precisa fazer uma denúncia?<br>Conte com a gente!</h1>
+      <a href="#formulario" class="botao-destaque">DENUNCIE JÁ!</a>
+    </div>
+  </section>
+
+  <section class="descricao">
+    <p>Inicie hoje a sua transformação:<br>
+    Denuncie situações de violência, discriminação ou exclusão.<br>
+    Este é um espaço seguro para ser ouvido e construir um futuro mais justo.</p>
+  </section>
+
+  <section class="formulario" id="formulario">
+    <div class="form-box">
+      <h2>Ouvidoria</h2>
+      <form action="https://formsubmit.co/profissional.mariagabriela@gmail.com" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem..." required></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://obrigado.com">
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
