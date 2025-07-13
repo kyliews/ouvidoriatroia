@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #4b3f72;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner {
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  background-image: url('../assets/banner.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  background-color: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.banner h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.botao-destaque {
+  background-color: #ff6b35;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.botao-destaque:hover {
+  background-color: #e85d2a;
+}
+
+.descricao {
+  background-color: #f8f8f8;
+  padding: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.formulario {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.form-box {
+  max-width: 500px;
+  width: 100%;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #4b3f72;
+  color: white;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #372a55;
+}
